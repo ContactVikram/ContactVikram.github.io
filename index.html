@@ -19,22 +19,23 @@ Nursing Guide
 <body>
     <div class="container">
         <div class="placeholder">
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/MainPic.jpg">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="img/HomeImage.png" style="object-fit: contain;">
                 <div class="tm-header">
                     <ul>
                         <li class="tm-visitor-item">
-                            <a  class="tm-visitor-link active">Individuals</a>
+                            <a  class="tm-visitor-link active" style="border-radius: 10px;"> By Group 9
+                            </a>
                         </li>
                         <br>
                         <li class="tm-visitor-item">
-                            <a href="HealthCare.html" class="tm-visitor-link active">HealthCare Counselor</a>
+                            <a href="https://globalhealth.emory.edu/students/case-competitions/index.html" target="_blank" class="tm-visitor-link active" style="border-radius:10px;text-decoration:underline;border-width:5px;border-color:black;border-style:solid">EGHCC</a>
                         </li>
                     </ul>
                     <div class="row tm-header-inner">
                         <div class="col-md-6 col-12">
                             <div class="tm-site-text-box">
-                                <h1 class="tm-site-title">In Borders we Trust</h1>
-                                <h6 class="tm-site-description">We Know..We Care..</h6>
+                                <h1 class="tm-site-title"><span style="color:rgb(251, 251, 251);background-color:#324267;border-radius:15px;padding:15px;margin-bottom:30px;"> Resilient Voices </span></h1>
+                                <h6 class="tm-site-description"><span style="color:rgb(251, 251, 251);background-color:#324267;border-radius:7px;padding:6px;margin-bottom:30px;">Women's Stories of Strength and Courage in Border Camps</span></h6>
                             </div>
                         </div>
                         <nav class="col-md-6 col-12 tm-nav">
@@ -66,7 +67,7 @@ Nursing Guide
                 <nav>
                     <ul>
                         <li class="tm-paging-item-new">
-                            <a class="tm-paging-link">Stress</a>
+                            <a class="tm-paging-link">Isabella</a>
                         </li>
                         <li class="tm-paging-item">
                             <a  class="tm-paging-link">Anxiety</a>
@@ -175,7 +176,7 @@ Nursing Guide
         function populateText(name) {
             $(".tm-gallery").css("opacity","1");
 
-            $(".tm-gallery-title").first().text("What is " + name);
+            $(".tm-gallery-title").first().text(name + "'s story");
             $("#overview").text(nurseInfo[name].overview);
             $("#read-more").attr("href", nurseInfo[name].readMoreLink);
             $(".img-fluid").attr("src",nurseInfo[name].imgFluid);
@@ -202,8 +203,8 @@ Nursing Guide
             });
         });
         nurseInfo = {
-            Stress: {
-                overview: "Stress is a condition when our body responds to excessive pressure caused by any unexpected change that the human mind finds difficult to cope with. Stress is quite common and is experienced by almost everyone to varying degrees. Stress triggers our fight-or-flight response which releases adrenaline and cortisol. This is why when you are stressed out you may have an increased heart rate or loss in appetite due to slow digestion. After a while your fight-or-flight cools down, but in chronic stress you might not able to relax which can cause constant stress that can be damaging for your body. Chronic stress is only one of the many types of stress. There is Acute stress, which is short-term day-to-day stress. Episodic acute stress is another type of stress which can keep on occurring throughout your life causing ongoing distress. Eustress is a positive stress which gives you rushes of adrenaline boosting energy for physical activities like basketball.",
+            Isabella: {
+                overview: "My name is Isabella, and my journey across the Mexican-USA border has been a relentless battle, marked by hardship and pain. The sun sets on the horizon, casting long shadows over the makeshift camp that has become my temporary home. I find solace in the anonymity of the crowd, yet the scars on my heart tell a story of the darkness that looms over my past. I left my hometown in Mexico with dreams of a better life, a life where opportunities were not confined by the limitations of my birthplace. The border seemed like the gateway to a brighter future, but little did I know the challenges that awaited me on the other side. The camp is a sea of worn-out tents, a patchwork quilt of desperation and resilience. In the midst of survival, I grapple with a pain that transcends the physical—the haunting memories of the night I faced the unspeakable. Sexual violence, like a vicious storm, tore through the fabric of my hopes and dreams. The weight of the trauma I carry.",
                 symptoms: ["Clammy or sweaty palms","Body aches","Exhaustion","Headaches","Weak immune system","Digestive problems","High blood pressure","Diarrhea","Mood changes","Trembling","Muscle Tensions","Sickness"],
                 whatToDo: "There are many things you can do when you are feeling stressed. Activities like exercising, meditating, writing, reading, watching TV, and just talking to someone are simple activities that can greatly decrease stress. But sometimes the biggest solution is getting rid of the source of stress and just walking away from stressful situations.",
                 resources: "There are many people who can help with stress. Close friends and family members can help much more than you think. If you are looking for professional help, call your nearest hospital. There are many places like the Washington Hospital Healthcare System, or other medical facilities that provide psychiatric services for those in need.",

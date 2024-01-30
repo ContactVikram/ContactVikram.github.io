@@ -279,17 +279,19 @@ p, address {
   display: inline-block;
 }
 .tm-site-title {
-  top: -330px;
+  top: -355px;
+  left: -25px;
   position:absolute;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
   margin-bottom: 5px;
 }
 
 .tm-site-description {
-  font-size: 1.1rem;
+  font-size: 15px;
   font-weight: 400;
-  top: -200px;
+  top: 50px;
+  left: -40px;
   position: relative;
 }
 
@@ -992,9 +994,8 @@ input[type=submit] {
 }
 
 .tm-visitor-item {  
-  
   position: relative;
-  top: -200px;
+  top: -170px;
   list-style: none;
   display: inline-block;
   margin: 7px;
@@ -1013,6 +1014,6 @@ input[type=submit] {
 
   .tm-visitor-link.active,   
 .tm-visitor-link:hover {
-  background-color: #2D99CC;
+  background-color: #324267;
   color: white;
 }
