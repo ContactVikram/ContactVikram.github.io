@@ -279,8 +279,8 @@ p, address {
   display: inline-block;
 }
 .tm-site-title {
-  top: -355px;
-  left: -25px;
+  top: -350px;
+  left: 350px;
   position:absolute;
   font-size: 50px;
   font-weight: 400;
@@ -290,7 +290,7 @@ p, address {
 .tm-site-description {
   font-size: 15px;
   font-weight: 400;
-  top: 50px;
+  top: 100px;
   left: -40px;
   position: relative;
 }
